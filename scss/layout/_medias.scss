@@ -1,0 +1,135 @@
+@media (max-width:479px) {
+
+    header{
+        height: 2vh;
+    }
+
+    .main-element{
+        margin: 1.5em 0;
+    }
+
+    .footer-element{
+        margin: 1em 0;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+    
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .logo svg, menu svg{
+        height: 2em;
+        width: 2em;
+    }
+
+    .title{
+        margin-left: 0.5em;
+    }
+
+    .crud{
+        display: block;
+    }
+
+    .crud__table, .crud__form{
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    .crud__store-button{
+        font-size: 1em;
+        margin-top: 0.5em;
+    }
+}
+
+@media (max-width:1024px) {
+
+    header{
+        height: 2vh;
+    }
+
+    .main-element{
+        margin: 1.5em 0;
+    }
+
+    .footer-element{
+        margin: 1em 0;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+    
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .logo svg, .menu svg{
+        height: 2em;
+        width: 2em;
+    }
+
+    .title{
+        margin-left: 0.5em;
+    }
+
+    .crud{
+        display: block;
+        .crud__table, .crud__form{
+            min-width: 100%;
+            max-width: 100%;
+        }
+        .crud__table{
+            margin-bottom: 2em;
+            th{
+                font-size: 1em;
+            }
+            td{
+                font-size: 0.9em;
+            }
+        }
+        .crud__store-button{
+            font-size: 1em;
+            margin-top: 0.5em;
+        }
+    }
+
+    
+}
+
+@media (min-width: 1920px) {
+
+    h1 {
+        font-size: 3.5em;
+    }
+    
+    h2 {
+        font-size: 3em;
+    }
+
+    .logo svg, .menu svg{
+        height: 4em;
+        width: 4em;
+    }
+
+    .crud__form-label label{
+        font-size: 1.5em;
+    }
+
+    .crud__form-input input, 
+    .crud__form-input textarea,
+    .crud__form-input select {
+        font-size: 1.3em;
+        padding: 0.3em;
+    }
+
+    .crud__store-button{
+        font-size: 1.5em;
+    }
+
+    .footer-element p{
+        font-size: 1.5em;
+    }
+}

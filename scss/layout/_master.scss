@@ -1,0 +1,40 @@
+body{
+    background-color: $black-brighter;
+    display:flex; 
+    flex-direction:column;    
+    min-height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: $color-secondary-brightest;
+    padding: 1em;
+}
+
+main{
+    margin: 1em 0;
+    width: 100%;
+
+    .main-element{
+        margin-bottom: 2em;
+    }
+}
+
+footer{
+    margin-top: auto; 
+    background-color: $color-secondary-brightest;
+    padding: 0.5em 0;
+    
+    .footer-element{
+        margin: 0.5em 0;
+        width: 100%;
+
+        p{
+            text-align: center;
+        }
+    }
+}
+
+
+

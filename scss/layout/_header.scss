@@ -1,0 +1,48 @@
+
+.title-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+
+    .title{
+        margin-left: 1em;
+
+        h1{
+            text-align: left;
+        }
+    }
+}
+
+.logo{
+    width: max-content;
+
+    svg{
+        height: 3em;
+        width: 3em;
+
+        path{
+            fill: $color-primary;
+        }
+    }
+}
+
+.menu{
+    width: max-content;
+
+    svg{
+        height: 3em;
+        width: 3em;
+
+        path{
+            fill: $color-primary;
+        }
+    }
+    
+    &:hover svg path{
+        fill: $color-secondary;
+        cursor: pointer;
+    }
+}
+
+
+

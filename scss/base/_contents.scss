@@ -1,0 +1,32 @@
+/*Contents*/
+
+img {
+    width: 100%;
+}
+
+a:hover, button:hover{
+    cursor: pointer;
+}
+
+.subtitle{
+    padding: 0.2em 0;
+    width: 100%;
+
+    h2{
+        text-align: center;
+        color: $color-secondary;
+    }
+}
+
+textarea{
+    resize: none;
+    width: 100%;
+    height: 20vh;
+}
+
+.ck-editor__editable{
+	height: 20vh !important;
+}
+.hidden-element{
+    display: none;
+}
